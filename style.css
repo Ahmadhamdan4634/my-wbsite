@@ -1,0 +1,116 @@
+*{
+  padding: 0;margin: 0;
+  font-family: Sans-Serif;
+}
+
+/* =============== 1. header
+================ */
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+a{
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 8px;
+  transition: all 0.5s;
+}
+a:hover{
+  background-color: #0ec2be;
+  
+}
+
+
+.fa-house-user{
+  font-size: 15px;
+  padding: 2px;
+}
+.fa-search {
+  padding-top: 25px;
+  padding-right: 10px;
+  padding-bottom: 25px;
+}
+.parent-link{
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  position: absolute;
+  margin-left: 240px;
+  margin-top: 0.3px;
+  visibility: hidden;
+  padding: 10px 0px 10px 10px;
+  border-radius: 2px;
+  background-color: #2e2e2e;
+}
+.drop:hover + .parent-link{
+  visibility: visible;
+}
+
+
+/* =============== 2. img
+================ */
+
+.I{
+  width: 100%;
+  
+}
+.L{
+  background-color: black;
+  color: white;
+  position: relative;
+  bottom: 60px;
+  left: 20px;
+  font-size: 15px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+}
+.O{
+  width: 100%;
+  position: relative;
+  bottom: 45px;
+}
+.W{
+  background-color: black;
+  color: white;
+  position: relative;
+  bottom: 110px;
+  left: 20px;
+  font-size: 15px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  
+}
+/* =============== 3. our team
+================ */
+.h{
+  text-align: center;
+}
+.im{
+  text-align: center;
+  border-radius: 1500px ;
+  width: 35%;
+}
+.Ah{
+  text-align: center;
+}
+.web{
+  text-align: center;
+}
+.center{
+  text-align: center;
+}
+.G{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px 20px 20px 20px;
+  border-radius: 30px 30px 0px 0px;
+  font-size: 18px;
+}

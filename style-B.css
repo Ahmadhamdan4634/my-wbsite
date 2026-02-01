@@ -1,0 +1,24 @@
+
+    *{
+      padding: 0;
+      margin: 0;
+    }
+      .A{
+        text-align: right;
+        background-color: #afafaf;
+        color: #000063;
+        border-radius: 5px;
+        padding: 10px 10px;
+        margin-left: 105px;
+      }
+      p{
+        text-align: right;
+        color: #000063;
+        margin-right: 2px;
+      }
+      .B{
+        background-color: #afafaf;
+        padding: 10px 10px;
+        margin-left: 200px;
+        border-radius: 5px; 
+      }
